@@ -1,3 +1,7 @@
+/**********************************
+SMALL PHONE
+***********************************/
+
 @media screen and (min-width: 480px) {
 	/***************************
 	TWO COLUMN LAYOUT
@@ -38,7 +42,7 @@
 	
 	}
 	h2 {
-		margin: 10px auto 270px;
+		margin: 10px auto 250px;
 	}
 	/**********************************
 		NAVIGATION
@@ -49,12 +53,14 @@
 	}
 	
 	nav ul {
-	  line-height: 100%;
+	  line-height: 80%;
+	  
 	}
+
 
 	nav li {
 	  border-left: #999 solid 1px;
-	  margin: 4px 0 4px 0;
+	  margin: 7px 0 7px 0;
 
 	}
 
@@ -98,6 +104,9 @@ FOOTER
 
 }
 
+/**********************************
+SMALL TABLET
+***********************************/
 
 
 @media screen and (min-width: 660px) {
@@ -130,8 +139,16 @@ nav li:nth-child(5n) {
     	max-height: 100%;
 	}
 	
+h2 {
+		margin: 10px auto 240px;
+	}
+	
+	
 }
 
+/**********************************
+BIG TABLET
+***********************************/
 @media screen and (min-width: 1020px) {
 	
 	
@@ -173,7 +190,7 @@ nav li:nth-child(5n) {
   } */
   	header {
 	  	
-	  	height: 620px;
+	  	height: 525px;
 		background: linear-gradient(#444, transparent 90%),
               		linear-gradient(0deg, #fff, transparent),
 			  		#444 url('../img/MarcPortrait.jpg') no-repeat center;
@@ -182,7 +199,7 @@ nav li:nth-child(5n) {
 		margin-bottom: 20px;
 	}
 	h2 {
-		margin: 10px auto 480px;
+		margin: 10px auto 370px;
 	}
 	
 	.quote p {
@@ -200,7 +217,9 @@ nav li:nth-child(5n) {
 }
 
 
-
+/**********************************
+LAPTOP
+***********************************/
 
 @media screen and (min-width: 1250px) {
 	
@@ -226,4 +245,47 @@ nav li:nth-child(5n) {
     	max-height: 100%;
 	}
 }
+
+/**********************************
+WIDESCREEN
+***********************************/
+
+@media screen and (min-width: 1500px) {
+	
+  	header {
+	  	
+	  	height: 425px;
+	}
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 260px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}
+}
+
+/**********************************
+EXTRAWIDESCREEN
+***********************************/
+
+	
+@media screen and (min-width: 1900px) {
+	
+  	header {
+	  	
+	  	height: 525px;
+	}
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 360px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}
+}
+	
+
 	
