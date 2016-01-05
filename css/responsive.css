@@ -1,0 +1,229 @@
+@media screen and (min-width: 480px) {
+	/***************************
+	TWO COLUMN LAYOUT
+	**************************/
+	
+	/* #primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 45%;
+		float: right;
+	} */ 
+	
+	/***************************
+	gallery page, theee cloumns
+	**************************/
+	
+	/* #gallery li {
+		width: 28.3333%
+	}
+	#gallery li:nth-child(4n) {
+		clear: left;
+	} */
+ 
+  /**********************************
+  HEADER
+  ***********************************/
+
+
+
+  	header {
+		height: 430px;
+		background: linear-gradient(#444, transparent 90%),
+              		linear-gradient(0deg, #fff, transparent),
+			  		#444 url('../img/MarcPortrait-small.jpg') no-repeat center;
+			  	background-size: cover;	
+	
+	}
+	h2 {
+		margin: 10px auto 270px;
+	}
+	/**********************************
+		NAVIGATION
+	***********************************/
+
+	nav {
+	  background: transparent;
+	}
+	
+	nav ul {
+	  line-height: 100%;
+	}
+
+	nav li {
+	  border-left: #999 solid 1px;
+	  margin: 4px 0 4px 0;
+
+	}
+
+	nav a, nav a:visited, nav a:link {
+		color: #444;
+	}
+	nav a.selected, nav a:hover {
+		color: #777;
+	}
+	
+	/**********************************
+		HOME
+	***********************************/
+
+	
+	.quote img {
+		 display: none;
+	}
+	
+/**********************************
+FOOTER
+***********************************/
+
+.left {
+	width:32%;
+	float:left;
+  text-align:left;
+}
+
+.center {
+	width:32%;
+	float:left;
+  text-align:center;
+}
+.right {
+	width:32%
+	float: right;
+  text-align:right;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 660px) {
+
+	/**********************************
+		NAVIGATION
+	***********************************/
+
+nav li {
+  width:13%;
+}
+
+nav li:first-child {
+  border: none;
+}
+
+nav li:nth-child(5n) {
+  border-left: #999 solid 1px;
+  clear: none;
+}
+
+
+  	header {
+		height: 400px;
+	}
+	    #videos li iframe {
+    	height: 200px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	
+}
+
+@media screen and (min-width: 1020px) {
+	
+	
+	#wrapper {
+  max-width: 1020px;
+}
+	  /**********************************
+  HEADER
+  ***********************************/
+
+  /*nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  } */
+  	header {
+	  	
+	  	height: 620px;
+		background: linear-gradient(#444, transparent 90%),
+              		linear-gradient(0deg, #fff, transparent),
+			  		#444 url('../img/MarcPortrait.jpg') no-repeat center;
+			  		background-size:cover;
+			  		    border-bottom: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin: 10px auto 480px;
+	}
+	
+	.quote p {
+		background-color: #fff;
+		padding: 5px;
+		margin: 5px;
+	}
+	
+	.quote {
+		border-style: hidden;
+			box-shadow: 0px 0px 0px black;
+	}
+
+	
+}
+
+
+
+
+@media screen and (min-width: 1250px) {
+	
+		#wrapper {
+  max-width: 1420px;
+	}
+	
+		#newrecords {
+		width: 50%;
+		float: left;
+	}
+	#videos {
+		width: 45%;
+		float: right;
+	}  
+	
+
+	
+			    #videos li iframe {
+    	height: 230px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+}
+	
