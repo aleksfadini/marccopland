@@ -26,9 +26,10 @@ img {
 h3 {
   clear: both;
   margin: 7% 0 1em 0;
-  padding: 1em 0;
+  padding: 1.2em 0;
   border-bottom: #999 solid 1px;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h5 {
