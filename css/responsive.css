@@ -211,7 +211,11 @@ BIG TABLET
 	.quote {
 		border-style: hidden;
 			box-shadow: 0px 0px 0px black;
+			background-color: #fff;
 	}
+	
+	#quotes ul {
+	background-color: #fff;
 
 	
 }
