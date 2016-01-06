@@ -225,18 +225,19 @@ BIG TABLET
 LAPTOP
 ***********************************/
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1360px) {
 	
 		#wrapper {
-  max-width: 1420px;
+  max-width: 1500px;
+  padding: 0 2%;
 	}
-	
+
 		#newrecords {
-		width: 50%;
+		width: 48%;
 		float: left;
 	}
 	#videos {
-		width: 45%;
+		width: 51%;
 		float: right;
 	}  
 	
