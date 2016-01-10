@@ -214,7 +214,8 @@ BIG TABLET
 	***********************************/
 
 	nav li {
-		width:10%;
+		width:12%;
+		font-size: 1.1em;
 	}
 
 	nav li:first-child {
@@ -264,7 +265,9 @@ LAPTOP
 		width: 51%;
 		float: right;
 	}  
-	
+		nav li {
+font-size: 1.2em;
+	}
 
 	
 			    #videos li iframe {
