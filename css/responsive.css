@@ -3,19 +3,7 @@ SMALL PHONE
 ***********************************/
 
 @media screen and (min-width: 485px) {
-	/***************************
-	TWO COLUMN LAYOUT
-	**************************/
-	
-	/* #primary {
-		width: 50%;
-		float: left;
-	}
-	#secondary {
-		width: 45%;
-		float: right;
-	} */ 
-	
+
 	/***************************
 	gallery page, theee cloumns
 	**************************/
@@ -175,6 +163,20 @@ BIG TABLET
     border-bottom: 5px solid #599a68;
     margin-bottom: 60px;
   } */
+  
+  	/***************************
+	TWO COLUMN LAYOUT
+	**************************/
+	
+ #primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 45%;
+		float: right;
+	}  
+	
   	header {
 	  	
 	  	height: 390px;
