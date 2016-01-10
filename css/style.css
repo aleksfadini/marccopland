@@ -115,11 +115,11 @@ nav ul {
 nav li {
   width:40%;
   display: inline-block;
-  border: white solid 1px;
+  border: gray solid 1px;
   border-radius: 5px;
   padding: 5px;
   margin: 4px;
-  box-shadow: 0px 0px 1px 1px white inset;	
+  box-shadow: 0px 0px 1px 1px #aaa inset;	
 }
 
 
@@ -285,6 +285,7 @@ PAGE: CONTACT
   padding: 0;
   margin: 0;
   font-size: 0.9em;
+  text-align: left;
 }
 
 .contact-info a {
@@ -302,6 +303,10 @@ PAGE: CONTACT
 
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png');
 }
 
 .contact-info li.twitter a {
