@@ -10,13 +10,15 @@ function fisherYatesShuffle(array ){
     }
 }
 
+var quotesli = '#quotes li';
+
 $(function() {
     var index = 0;
-    var numItems = $('#quotes li').length;
+    var numItems = $(quotesli).length;
 
     // randomize the elements
     function randomize() {
-        var quotesArray = $('#quotes li').get();
+        var quotesArray = $(quotesli).get();
         fisherYatesShuffle(quotesArray);
         // re-insert DOM elements in the new random order
         for (var i = 0; i < quotesArray.length; i++) {
@@ -35,15 +37,15 @@ $(function() {
 
     // process the next item with 6 second delay, then fadeOut, then fadeIn of next element
     function next() {
-        $("#quotes li").eq(index).delay(5000).fadeOut('slow', function() {
+        $(quotesli).eq(index).delay(4000).fadeOut('slow', function() {
             ++index;
             checkIndex();
-            $("#quotes li").eq(index).fadeIn('slow', next);
+            $(quotesli).eq(index).fadeIn('slow', next);
         });
 
     }
     // randomize the items initially and show the first one after randomization
     randomize();
-    $('#quotes li').hide().eq(0).show();
+    $(quotesli).hide().eq(0).show();
     next();
 });
