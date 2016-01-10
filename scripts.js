@@ -37,7 +37,7 @@ $(function() {
 
     // process the next item with 6 second delay, then fadeOut, then fadeIn of next element
     function next() {
-        $(quotesli).eq(index).delay(4000).fadeOut('slow', function() {
+        $(quotesli).eq(index).delay(2500).fadeOut('slow', function() {
             ++index;
             checkIndex();
             $(quotesli).eq(index).fadeIn('slow', next);
