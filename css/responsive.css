@@ -2,7 +2,7 @@
 SMALL PHONE
 ***********************************/
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 485px) {
 	/***************************
 	TWO COLUMN LAYOUT
 	**************************/
@@ -34,7 +34,7 @@ SMALL PHONE
 
 
   	header {
-		height: 430px;
+		height: 450px;
 		background: linear-gradient(#444, transparent 90%),
               		linear-gradient(0deg, #fff, transparent),
 			  		#444 url('../img/MarcPortrait-small.jpg') no-repeat center;
@@ -44,6 +44,10 @@ SMALL PHONE
 	h2 {
 		margin: 10px auto 250px;
 	}
+	h1,h2 {
+		text-shadow:1px 1px 10px black;
+	}
+	
 	/**********************************
 		NAVIGATION
 	***********************************/
@@ -54,14 +58,30 @@ SMALL PHONE
 	
 	nav ul {
 	  line-height: 80%;
+	  background: none;
 	  
 	}
 
 
 	nav li {
-	  border-left: #999 solid 1px;
-	  margin: 7px 0 7px 0;
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	  margin: 7px 0 7px 0; 
+	    width: 21%;
+	padding-left:8px;
 
+	}
+	
+	nav li:first-child {
+		border: none;
+	}
+	
+	nav li:nth-child(5) {
+	border: none;
 	}
 
 	nav a, nav a:visited, nav a:link {
@@ -84,22 +104,22 @@ SMALL PHONE
 FOOTER
 ***********************************/
 
-.left {
-	width:32%;
-	float:left;
-  text-align:left;
-}
+	.left {
+		width:32%;
+		float:left;
+		text-align:left;
+	}
 
-.center {
-	width:32%;
-	float:left;
-  text-align:center;
-}
-.right {
-	width:32%
-	float: right;
-  text-align:right;
-}
+	.center {
+		width:32%;
+		float:left;
+		text-align:center;
+	}
+	.right {
+		width:32%
+		float: right;
+		text-align:right;
+	}
 
 
 }
@@ -111,39 +131,6 @@ SMALL TABLET
 
 @media screen and (min-width: 660px) {
 
-	/**********************************
-		NAVIGATION
-	***********************************/
-
-nav li {
-  width:13%;
-}
-
-nav li:first-child {
-  border: none;
-}
-
-nav li:nth-child(5n) {
-  border-left: #999 solid 1px;
-  clear: none;
-}
-
-
-  	header {
-		height: 400px;
-	}
-	    #videos li iframe {
-    	height: 200px; 
-    	width: 100%; 
-    	max-width: 100%; 
-    	max-height: 100%;
-	}
-	
-h2 {
-		margin: 10px auto 240px;
-	}
-	
-	
 }
 
 /**********************************
@@ -153,8 +140,8 @@ BIG TABLET
 	
 	
 	#wrapper {
-  max-width: 1020px;
-}
+		max-width: 1020px;
+	}
 	  /**********************************
   HEADER
   ***********************************/
@@ -190,7 +177,7 @@ BIG TABLET
   } */
   	header {
 	  	
-	  	height: 525px;
+	  	height: 390px;
 		background: linear-gradient(#444, transparent 90%),
               		linear-gradient(0deg, #fff, transparent),
 			  		#444 url('../img/MarcPortrait.jpg') no-repeat center;
@@ -200,6 +187,10 @@ BIG TABLET
 	}
 	h2 {
 		margin: 10px auto 370px;
+	}
+	
+		h1,h2 {
+		text-shadow:1px 1px 10px gray;
 	}
 	
 	.quote p {
@@ -216,7 +207,40 @@ BIG TABLET
 	
 	#quotes ul {
 	background-color: #fff;
+	}
 
+	/**********************************
+		NAVIGATION
+	***********************************/
+
+	nav li {
+		width:10%;
+	}
+
+	nav li:first-child {
+		border: none;
+	}
+
+	nav li:nth-child(5n) {
+		border-left: #999 solid 1px;
+		clear: none;
+	}
+	    #videos li iframe {
+    	height: 200px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 220px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}
+	
 	
 }
 
@@ -227,9 +251,9 @@ LAPTOP
 
 @media screen and (min-width: 1360px) {
 	
-		#wrapper {
-  max-width: 1500px;
-  padding: 0 2%;
+	#wrapper {
+    max-width: 1500px;
+    padding: 0 2%;
 	}
 
 		#newrecords {
@@ -251,13 +275,14 @@ LAPTOP
 	}
 }
 
+
 /**********************************
 WIDESCREEN
 ***********************************/
 
 @media screen and (min-width: 1500px) {
 	
-  	header {
+/*  	header {
 	  	
 	  	height: 425px;
 	}
@@ -268,7 +293,7 @@ WIDESCREEN
 	h1{
 	    text-align: left;
 		padding: 20px 20px 0px 40px;
-	}
+	}*/
 }
 
 /**********************************
