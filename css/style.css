@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+p {
+	margin: 0.5em 0 1em 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -27,9 +31,29 @@ h3 {
   clear: both;
   margin: 2.5em 0 0.4em 0;
   padding: 0.3em 0;
+  font-size: 1.33em;
   border-bottom: #999 solid 1px;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 1.5em 0 0 0;
+	padding: 0 0 0.2em 0;
+	/*border-bottom: #999 solid 1px; */
+	position: relative;
+}
+
+h4:after {
+	content: '';
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	bottom: -1px;
+	border-bottom: 1px solid #999;
+	
 }
 
 h5 {
