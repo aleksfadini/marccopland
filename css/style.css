@@ -424,9 +424,8 @@ label{
 }
  
 input{
-    padding: 3px; /* Give the text some more space */
-    border: 1px solid gray; /* Add a border around the input fields */
-    margin: 3px; /* Create some distance away from the labels */
+    padding: 5px; /* Give the text some more space */
+    margin: 5px; /* Create some distance away from the labels */
 }
 
 .procut_item {width: 550px;margin-right: auto;margin-left: auto;padding: 20px;background: #F1F1F1;margin-bottom: 1px;font-size: 12px;border-radius: 5px;text-shadow: 1px 1px 1px #FCFCFC;}
