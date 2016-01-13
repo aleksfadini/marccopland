@@ -239,6 +239,9 @@ PAGE: HOME
 	font-style: italic;
 	}
 
+ .gigs p {
+	text-align:left;
+}
 
 /*********************/
 
