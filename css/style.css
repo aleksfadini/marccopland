@@ -119,6 +119,12 @@ h1,h2 {
 	text-shadow:1px 1px 10px black;
 }
 
+h6 {
+  font-size: 1em;
+  margin: 2em 0 0;
+  font-weight: normal;
+    text-transform: uppercase;
+}
 
 /**********************************
 NAVIGATION
@@ -499,5 +505,12 @@ margin-top: 100vh;
 }
 
 
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+#contact {
+	text-align: center;
+}
 
 
