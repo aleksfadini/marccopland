@@ -1,7 +1,7 @@
 var password = "123456";
 var inputPass = "";
 
-var HTMLsnippet = '<div class="downloadlink"<p><a href="dl/zenith.zip">Click HERE to download the full recording in High Quality MP3 format</a></p></div>';
+var HTMLsnippet = '<div class="downloadbtn"><p><a href="dl/zenith.zip">Click HERE to download the full recording in High Quality MP3 format</a></p></div>';
 
 while (true) {
 	inputPass = prompt("Insert the password to access the download section, or type ' quit' to abort");
