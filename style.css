@@ -453,6 +453,11 @@ nav a.selected, nav a:hover {
 }
 
 
-
+/**********************************
+PAGE: DOWNLOADS
+***********************************/
+.downloadbtn{
+	box-shadow: 3px 3px 3px 3px rgba(090,090,090,0.6);
+}
 
 
