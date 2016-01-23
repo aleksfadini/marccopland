@@ -5,7 +5,7 @@ GENERAL
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 
@@ -120,7 +120,7 @@ h1,h2 {
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 2em 0 0;
   font-weight: normal;
     text-transform: uppercase;
