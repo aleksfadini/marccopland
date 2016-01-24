@@ -22,7 +22,7 @@ SMALL PHONE
 
 
   	header {
-		height: 450px;
+		height: 420px;
 		background: linear-gradient(#444, transparent 90%),
               		linear-gradient(0deg, #fff, transparent),
 			  		#444 url('../img/MarcPortrait-small.jpg') no-repeat center;
@@ -119,6 +119,10 @@ SMALL TABLET
 
 @media screen and (min-width: 660px) {
 	
+	
+	  	header {
+		height: 440px;
+		}
 	
 /**********************************
 GENERAL
