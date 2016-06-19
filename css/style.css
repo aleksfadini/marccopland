@@ -528,3 +528,14 @@ PAGE: CONTACT
 }
 
 
+/**********************************
+PAGE: MEDIA
+***********************************/
+
+.mp3 {
+	margin: auto;
+}
+
+.mejs-container {
+    margin: auto;
+    }
