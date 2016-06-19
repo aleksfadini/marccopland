@@ -45,7 +45,7 @@ SMALL PHONE
 	}
 	
 	nav ul {
-	  line-height: 80%;
+	  line-height: 40%;
 	  background: none;
 	  
 	}
@@ -59,8 +59,9 @@ SMALL PHONE
     border-radius: 0;
 	 border-left: #999 solid 1px;
 	  margin: 7px 0 7px 0; 
-	    width: 21%;
+	    width: 29%;
 	padding-left:8px;
+	font-size: 0.2 em;
 
 	}
 	
@@ -68,7 +69,11 @@ SMALL PHONE
 		border: none;
 	}
 	
-	nav li:nth-child(5) {
+	nav li:nth-child(4) {
+	border: none;
+	}
+
+	nav li:nth-child(7) {
 	border: none;
 	}
 
@@ -280,26 +285,62 @@ BIG TABLET
 		NAVIGATION
 	***********************************/
 
+nav ul {
+    position: absolute;
+    line-height: 20%;
+    top: 300px;
+	}
+	  
 	nav li {
-		width:12%;
-		font-size: 1.1em;
+		width:19%;
+		font-size: 1 em;
 	}
 
-	nav li:first-child {
+		nav li {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+	/*   margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em; */
+
+	}
+
+	/* nav li:first-child {
 		border: none;
 	}
 
-	nav li:nth-child(5n) {
-		border-left: #999 solid 1px;
-		clear: none;
+	nav li:nth-child(4), nav li:nth-child(7) {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	  margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em;
+
+	} 
+
+	nav li:nth-child(6),  {
+	border: none;
 	}
+
 	    #videos li iframe {
     	height: 200px; 
     	width: 100%; 
     	max-width: 100%; 
     	max-height: 100%;
 	}
-	
+	*/
 	h2 {
 	    text-align: left;
 		margin: 0px 20px 220px 40px;
@@ -332,9 +373,62 @@ LAPTOP
 		width: 51%;
 		float: right;
 	}  
-		nav li {
-font-size: 1.2em;
+	
+	nav ul {
+    position: absolute;
+    line-height: 20%;
+    top: 320px;
 	}
+	  
+	nav li {
+		width:13%;
+		font-size: 1.1 em;
+	}
+
+		nav li {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 2px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+	/*   margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em; */
+
+	}
+
+	/* nav li:first-child {
+		border: none;
+	} */
+
+	nav li:nth-child(4), nav li:nth-child(7) {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 2px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+
+	} 
+
+	nav li:nth-child(6)  {
+	 border: none;
+	}
+/*
+	    #videos li iframe {
+    	height: 200px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	*/
+	
 
 	
 			    #videos li iframe {
@@ -343,6 +437,8 @@ font-size: 1.2em;
     	max-width: 100%; 
     	max-height: 100%;
 	}
+	
+	
 }
 
 
@@ -375,7 +471,7 @@ EXTRAWIDESCREEN
 	
   	header {
 	  	
-	  	height: 525px;
+	  	height: 390px;
 	}
 	h2 {
 	    text-align: left;
