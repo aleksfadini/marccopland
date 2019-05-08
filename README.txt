@@ -1,6 +1,3 @@
-This is the official site of Marc Copland, I will be working on it.
+This is the official site of Marc Copland.
 
-I created this repo to keep track of how it develops and back it up, maybe get help with the code.
-
-Best,
-Alessandro Fadini
+I created this repo to keep track of how it develops and keep all previous edits in case they are needed in the future.
